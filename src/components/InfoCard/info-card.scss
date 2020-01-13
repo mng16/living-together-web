@@ -1,0 +1,34 @@
+@import '../../global-styles.scss';
+
+.info-card {
+    font-family: $font-lato;
+    border: $black 1px solid;
+    width: 250px;
+    padding: 10px;
+    font-size: 15px;
+    height: 300px;
+
+    .info-title {
+        background-color: lightcyan;
+        font-weight: bold;
+        font-size: 20px;
+        text-transform: uppercase;
+        padding: 20px 10px 20px 10px;
+        margin: 0px;
+        text-align: center;
+        border: $black 1px solid;
+    }
+
+    .info-line {
+        display: flex;
+    }
+    
+    .info-label {
+        font-weight: bold;
+    }
+    
+    .info-value {
+    
+    }
+    
+}
