@@ -1,9 +1,9 @@
-const mockInfoData = [
+const mockHomeData = [
     {
         "infoTitle": "Gas",
         "company": "British Gas",
         "personResponsible": "Marie Kondo",
-        "paymentlDue": "first of month",
+        "paymentDue": "first of month",
         "lastBill": 80.00,
         "nextBill": 75.00,
         "split": ["equal"]
@@ -16,8 +16,8 @@ const mockInfoData = [
         "lastBill": 2000.00,
         "nextBill": 2000.00,
         "split": ["equal"]
-    },
+    }
     
 ];
 
-export default mockInfoData;
+export default mockHomeData;

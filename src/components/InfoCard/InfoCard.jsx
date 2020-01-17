@@ -1,24 +1,24 @@
 import React from 'react';
 import './info-card.scss';
 
-const InfoCard = () => 
+const InfoCard = ({houseData}) => 
     <div className = "info-card">
-        <p className = "info-title">Gas</p>
+        <p className = "info-title">{houseData.infoTitle}</p>
         <InfoLine 
             infoLabel = "Person responsible"
-            infoValue = "Marie Kondo" />
+            infoValue = {houseData.personResponsible} />
         <InfoLine 
             infoLabel = "Bill due"
-            infoValue = "1st of the month" />
+            infoValue = {houseData.paymentDue} />
         <InfoLine 
             infoLabel = "Last bill"
-            infoValue = "£80.00"/>
+            infoValue = {houseData.lastBill} />
         <InfoLine 
             infoLabel = "Next bill"
-            infoValue = "£75.00"/>
+            infoValue = {houseData.nextBill} />
         <InfoLine 
-            infoLabel = "Bill status"
-            infoValue = "PAID"/>
+            infoLabel = "Split"
+            infoValue = {houseData.split[0]}/>
     </div>
 
 const InfoLine = (props) => 
