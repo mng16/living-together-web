@@ -1,25 +1,31 @@
 @import '../../global-styles.scss';
 
-nav {
+header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 30px 30px 30px 30px;
     background-color: $dark-blue;
     font-family: $font-lato;
-    // font-weight: bold;
     font-size: 20px;
-    
-    ul {
-        width: 100%;
-        list-style: none;
-        display: flex;
-        justify-content: space-between;
-        margin: 0px;
-        padding: 0px;
-    }
 
     a {
         text-decoration: none;
         color: $white;
+    }
+}
+nav {
+    font-size: 18px;
+
+    ul {
+        width: 100%;
+        list-style: none;
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    li {
+        padding-left: 14px;
     }
 }
