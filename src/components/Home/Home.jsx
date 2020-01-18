@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import InfoCard from '../InfoCard/InfoCard';
 // import mockHomeData from '../../mocks/mockHomeData';
 import InfoCardGroup from '../InfoCardGroup/InfoCardGroup';
+import './home.scss';
 
 const mockHomeData = [
     {
@@ -87,10 +88,9 @@ class Home extends Component {
 
     render() {
         return (
-            <div>
-                Home page
+            <main className = "home-main">
                 <InfoCardGroup houseData = {mockHomeData} />
-            </div>
+            </main>
         );
     }
 }

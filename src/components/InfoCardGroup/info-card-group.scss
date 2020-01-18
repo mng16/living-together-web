@@ -1,0 +1,10 @@
+@import '../../global-styles.scss';
+
+.card-group {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax($card-width, 1fr));
+    row-gap: 55px;
+    column-gap: 5px;
+    padding: 10px 10px 10px 10px;
+}
